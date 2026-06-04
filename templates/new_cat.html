@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add your cat here</title>
+</head>
+<body>
+    <h1>Додати кота</h1>
+    <form method="POST" action="/new">
+        <label>Ім'я: <input type="text" name="name" required></label><br>
+        <label>Фото (URL): <input type="url" name="photo" required></label><br>
+        <label>Вік: <input type="number" name="age" min="0" required></label><br>
+        <button type="submit">Додати</button>
+    </form>
+    <a href="/">На головну</a>
+</body>
+</html>
